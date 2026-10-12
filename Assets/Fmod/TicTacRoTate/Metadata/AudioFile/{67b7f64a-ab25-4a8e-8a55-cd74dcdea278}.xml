@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{67b7f64a-ab25-4a8e-8a55-cd74dcdea278}">
+		<property name="assetPath">
+			<value>GAME_PlayerTurn.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.81599999999999995</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{184ed8f5-89da-4645-aa69-ca670a0721a9}</destination>
+		</relationship>
+	</object>
+</objects>
