@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Fmod/TicTacRoTate/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639274097822235513
+  lastModified: 639274110305442581
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -41,7 +41,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -3976393923347036774}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -3976393923347036774}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -89,11 +89,38 @@ MonoBehaviour:
   Path: Assets/Fmod/TicTacRoTate/Build/Desktop/GAME.bank
   Name: GAME
   StudioPath: bank:/GAME
-  lastModified: 639274097822707067
+  lastModified: 639274110305980211
   FileSizes:
   - Name: Desktop
-    Value: 10592
+    Value: 25632
   Exists: 1
+--- !u!114 &-380341291539083480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GAME_Player2BoardWin
+  m_EditorClassIdentifier: 
+  Path: event:/GAME_Player2BoardWin
+  Guid:
+    Data1: -1148747582
+    Data2: 1197478675
+    Data3: -136254578
+    Data4: -707981634
+  Banks:
+  - {fileID: -3976393923347036774}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1541
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,18 +141,27 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -6805947549743122155}
   - {fileID: -8232380466685866881}
+  - {fileID: 8633618840782832788}
+  - {fileID: 4200431543963225101}
+  - {fileID: -380341291539083480}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8762519121660051618}
   StringsBanks:
   - {fileID: 460025589826056795}
   cacheVersion: 131861
-  cacheTime: 639274097822707067
+  cacheTime: 639274110305980211
   SerializableEventsDict:
   - key: event:/GAME_Player2Turn
     index: 0
   - key: event:/GAME_Player1Turn
     index: 1
+  - key: event:/SFX_Rotate
+    index: 2
+  - key: event:/GAME_Player1BoardWin
+    index: 3
+  - key: event:/GAME_Player2BoardWin
+    index: 4
 --- !u!114 &460025589826056795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,10 +177,10 @@ MonoBehaviour:
   Path: Assets/Fmod/TicTacRoTate/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639274097822245943
+  lastModified: 639274110305447654
   FileSizes:
   - Name: Desktop
-    Value: 906
+    Value: 1062
   Exists: 1
 --- !u!114 &2438832527460507216
 MonoBehaviour:
@@ -161,8 +197,62 @@ MonoBehaviour:
   Path: Assets/Fmod/TicTacRoTate/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639274097822281220
+  lastModified: 639274102956871599
   FileSizes:
   - Name: Desktop
-    Value: 506
+    Value: 8320
   Exists: 1
+--- !u!114 &4200431543963225101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GAME_Player1BoardWin
+  m_EditorClassIdentifier: 
+  Path: event:/GAME_Player1BoardWin
+  Guid:
+    Data1: -1111692897
+    Data2: 1212951615
+    Data3: -1632480883
+    Data4: 1037510372
+  Banks:
+  - {fileID: -3976393923347036774}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1541
+--- !u!114 &8633618840782832788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_Rotate
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_Rotate
+  Guid:
+    Data1: -639502434
+    Data2: 1223318732
+    Data3: 229681303
+    Data4: 459717693
+  Banks:
+  - {fileID: 2438832527460507216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 360

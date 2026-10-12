@@ -23,6 +23,7 @@ public class BoardManager : MonoBehaviour
         PlayerMove,
         RotationChoice,
         Rotating,
+        TurnDelay,
         GameOver
     }
 
@@ -64,11 +65,15 @@ public class BoardManager : MonoBehaviour
 
     [Header("Match")]
     public float TurnDuration = 30f;
+    public float TurnDelayDuration = 3f;
     public int BoardsToWin = 3;
 
     [Header("Player Colors")]
     public Color PlayerXColor = new Color(0.2f, 0.65f, 1f, 1f);
     public Color PlayerOColor = new Color(1f, 0.4f, 0.3f, 1f);
+
+    [Header("Camera Background")]
+    public Camera MainCamera;
 
     [Header("Rotation Choice")]
     public GameObject RotationChoicePanel;
@@ -90,6 +95,13 @@ public class BoardManager : MonoBehaviour
     [Header("SFX")]
     public EventReference Player1Turn;
     public EventReference Player2Turn;
+    public EventReference Rotate;
+    public EventReference Player1BoardWin;
+    public EventReference Player2BoardWin;
+
+    [Header("Board Win")]
+    public GameObject BoardWinPrefab;
+    public float BoardWinPrefabOffset = 0.05f;
 
     public int CurrentPlayer { get; private set; } = 1;
     public int PlayerXScore { get; private set; }
@@ -114,6 +126,7 @@ public class BoardManager : MonoBehaviour
     private Transform selectedCubelet;
     private Canvas rotationChoiceCanvas;
     private bool moveRotationPanelWithOptions;
+    private Camera backgroundCamera;
 
     private void Awake()
     {
@@ -241,6 +254,10 @@ public class BoardManager : MonoBehaviour
         if (rotationChoiceCanvas.worldCamera == null && sceneCamera != null)
             rotationChoiceCanvas.worldCamera = sceneCamera;
 
+        backgroundCamera = MainCamera != null ? MainCamera : Camera.main;
+        if (backgroundCamera != null)
+            backgroundCamera.clearFlags = CameraClearFlags.SolidColor;
+
         RestartGame();
     }
 
@@ -271,7 +288,7 @@ public class BoardManager : MonoBehaviour
             if (TimeRemaining <= 0f)
             {
                 TimeRemaining = 0f;
-                BeginNextTurn();
+                BeginTurnDelay();
             }
         }
         else if (phase == TurnPhase.RotationChoice)
@@ -399,6 +416,9 @@ public class BoardManager : MonoBehaviour
         phase = TurnPhase.Rotating;
         UpdateButtonStates();
 
+        if (!Rotate.IsNull)
+            RuntimeManager.PlayOneShot(Rotate);
+
         GetFaceAxes(selectedFace, out Vector3Int right, out Vector3Int up);
 
         bool isRow = action == RotationAction.RowLeft || action == RotationAction.RowRight;
@@ -493,6 +513,23 @@ public class BoardManager : MonoBehaviour
             return;
         }
 
+        BeginTurnDelay();
+    }
+
+    private void BeginTurnDelay()
+    {
+        phase = TurnPhase.TurnDelay;
+        TimeRemaining = 0f;
+        ChoiceTimeRemaining = 0f;
+        SetRotationChoiceVisible(false);
+        UpdateButtonStates();
+        UpdateDisplay();
+        StartCoroutine(WaitBetweenTurns());
+    }
+
+    private IEnumerator WaitBetweenTurns()
+    {
+        yield return new WaitForSeconds(Mathf.Max(0f, TurnDelayDuration));
         BeginNextTurn();
     }
 
@@ -516,8 +553,10 @@ public class BoardManager : MonoBehaviour
             RuntimeManager.PlayOneShot(turnEvent);
     }
 
-    private void CountWinsAndClearBoards()
+    private bool CountWinsAndClearBoards()
     {
+        bool boardWasWon = false;
+
         for (int face = 0; face < 6; face++)
         {
             bool xWins = HasLine(face, 1);
@@ -526,11 +565,33 @@ public class BoardManager : MonoBehaviour
             if (!xWins && !oWins)
                 continue;
 
+            boardWasWon = true;
+
             if (xWins)
+            {
                 PlayerXScore++;
 
+                if (!Player1BoardWin.IsNull)
+                    RuntimeManager.PlayOneShot(Player1BoardWin);
+            }
+
             if (oWins)
+            {
                 PlayerOScore++;
+
+                if (!Player2BoardWin.IsNull)
+                    RuntimeManager.PlayOneShot(Player2BoardWin);
+            }
+
+            if (BoardWinPrefab != null)
+            {
+                CubeFace winningFace = (CubeFace)face;
+                GetFaceAxes(winningFace, out _, out Vector3Int faceUp);
+                Vector3 normal = CubeRoot.TransformDirection((Vector3)GetFaceNormal(winningFace));
+                Quaternion rotation = Quaternion.LookRotation(normal, CubeRoot.TransformDirection((Vector3)faceUp));
+                Vector3 position = faceCells[face, 1, 1].Canvas.transform.position + normal * BoardWinPrefabOffset;
+                Instantiate(BoardWinPrefab, position, rotation);
+            }
 
             for (int row = 0; row < 3; row++)
             {
@@ -542,6 +603,8 @@ public class BoardManager : MonoBehaviour
                 }
             }
         }
+
+        return boardWasWon;
     }
 
     private bool HasLine(int face, int player)
@@ -839,6 +902,9 @@ public class BoardManager : MonoBehaviour
             CurrentPlayerText.text = CurrentPlayer == 1 ? "Player 1" : "Player 2";
 
         Color currentPlayerColor = CurrentPlayer == 1 ? PlayerXColor : PlayerOColor;
+
+        if (backgroundCamera != null)
+            backgroundCamera.backgroundColor = currentPlayerColor;
 
         if (CurrentPlayerPanel != null)
             CurrentPlayerPanel.color = currentPlayerColor;

@@ -22372,6 +22372,7 @@ MonoBehaviour:
   BoardsToWin: 6
   PlayerXColor: {r: 0.2, g: 0.65, b: 1, a: 1}
   PlayerOColor: {r: 1, g: 0.4, b: 0.3, a: 1}
+  MainCamera: {fileID: 330585545}
   RotationChoicePanel: {fileID: 2008212932}
   RotationOptionOneButton: {fileID: 1948447994}
   RotationOptionTwoButton: {fileID: 1222047510}
@@ -22398,6 +22399,29 @@ MonoBehaviour:
       Data3: -2106283845
       Data4: 1350581135
     Path: event:/GAME_Player2Turn
+  Rotate:
+    Guid:
+      Data1: -639502434
+      Data2: 1223318732
+      Data3: 229681303
+      Data4: 459717693
+    Path: event:/SFX_Rotate
+  Player1BoardWin:
+    Guid:
+      Data1: -1111692897
+      Data2: 1212951615
+      Data3: -1632480883
+      Data4: 1037510372
+    Path: event:/GAME_Player1BoardWin
+  Player2BoardWin:
+    Guid:
+      Data1: -1148747582
+      Data2: 1197478675
+      Data3: -136254578
+      Data4: -707981634
+    Path: event:/GAME_Player2BoardWin
+  BoardWinPrefab: {fileID: 2987331089027377192, guid: 220ac0ff17190084c97be63c74b4dcaa, type: 3}
+  BoardWinPrefabOffset: 0.05
 --- !u!4 &1637310792
 Transform:
   m_ObjectHideFlags: 0
