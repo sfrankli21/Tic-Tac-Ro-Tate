@@ -77,9 +77,11 @@ public class BoardManager : MonoBehaviour
 
     [Header("Rotation Choice")]
     public GameObject RotationChoicePanel;
-    public Button RotationOptionOneButton;
-    public Button RotationOptionTwoButton;
+    public UIButton RotationOptionOneButton;
+    public UIButton RotationOptionTwoButton;
+    public UIButton RotationRefocusButton;
     public Camera RotationChoiceCamera;
+    public CameraController RotationChoiceOrbitController;
     public float RotationOptionWorldDistance = 0.85f;
     public float RotationOptionFaceOffset = 0.65f;
 
@@ -127,6 +129,7 @@ public class BoardManager : MonoBehaviour
     private Canvas rotationChoiceCanvas;
     private bool moveRotationPanelWithOptions;
     private Camera backgroundCamera;
+    private CameraController rotationChoiceOrbitController;
 
     private void Awake()
     {
@@ -235,6 +238,8 @@ public class BoardManager : MonoBehaviour
 
         RotationOptionOneButton.onClick.AddListener(ChooseRotationOne);
         RotationOptionTwoButton.onClick.AddListener(ChooseRotationTwo);
+        if (RotationRefocusButton != null)
+            RotationRefocusButton.onClick.AddListener(RefocusRotationCamera);
         rotationChoicePanelImage = RotationChoicePanel.GetComponent<Image>();
         rotationChoicePanelRect = RotationChoicePanel.GetComponent<RectTransform>();
         rotationChoiceCanvas = RotationOptionOneButton.GetComponentInParent<Canvas>(true);
@@ -253,6 +258,16 @@ public class BoardManager : MonoBehaviour
         Camera sceneCamera = RotationChoiceCamera != null ? RotationChoiceCamera : Camera.main;
         if (rotationChoiceCanvas.worldCamera == null && sceneCamera != null)
             rotationChoiceCanvas.worldCamera = sceneCamera;
+
+        rotationChoiceOrbitController = RotationChoiceOrbitController;
+        if (rotationChoiceOrbitController == null)
+        {
+            Camera orbitCamera = RotationChoiceCamera != null ? RotationChoiceCamera :
+                MainCamera != null ? MainCamera : Camera.main;
+
+            if (orbitCamera != null)
+                rotationChoiceOrbitController = orbitCamera.GetComponent<CameraController>();
+        }
 
         backgroundCamera = MainCamera != null ? MainCamera : Camera.main;
         if (backgroundCamera != null)
@@ -315,6 +330,9 @@ public class BoardManager : MonoBehaviour
     {
         StopAllCoroutines();
 
+        if (rotationChoiceOrbitController != null)
+            rotationChoiceOrbitController.ReleaseFaceFocus();
+
         for (int i = 0; i < cubeletData.Count; i++)
         {
             CubeletData cubelet = cubeletData[i];
@@ -351,6 +369,7 @@ public class BoardManager : MonoBehaviour
         }
 
         UpdateButtonStates();
+        UpdateRefocusButtonColor();
         UpdateDisplay();
         PlayTurnSFX();
     }
@@ -382,14 +401,33 @@ public class BoardManager : MonoBehaviour
         else
         {
             phase = TurnPhase.RotationChoice;
+            RefocusRotationCamera();
             ChoiceTimeRemaining = RotationChoiceDuration;
             SetButtonLabel(RotationOptionOneButton, GetRotationLabel(choiceOne));
             SetButtonLabel(RotationOptionTwoButton, GetRotationLabel(choiceTwo));
+            if (RotationRefocusButton != null)
+                SetButtonLabel(RotationRefocusButton, "Reorient Camera");
             SetRotationChoiceVisible(true);
+            UpdateRefocusButtonColor();
             PositionRotationOptions();
             UpdateButtonStates();
             UpdateDisplay();
         }
+    }
+
+    public void RefocusRotationCamera()
+    {
+        if (phase != TurnPhase.RotationChoice || rotationChoiceOrbitController == null)
+            return;
+
+        GetFaceAxes(selectedFace, out _, out Vector3Int faceUp);
+        Vector3 focusUp = CubeRoot.TransformDirection((Vector3)faceUp);
+
+        if (selectedFace == CubeFace.Bottom)
+            focusUp = -focusUp;
+
+        rotationChoiceOrbitController.FocusOnFace(
+            CubeRoot.TransformDirection((Vector3)GetFaceNormal(selectedFace)), focusUp);
     }
 
     public void ChooseRotationOne()
@@ -491,6 +529,9 @@ public class BoardManager : MonoBehaviour
 
     private void ResolveMove()
     {
+        if (rotationChoiceOrbitController != null)
+            rotationChoiceOrbitController.ReleaseFaceFocus();
+
         CountWinsAndClearBoards();
 
         bool xWonMatch = PlayerXScore >= Mathf.Max(1, BoardsToWin);
@@ -541,6 +582,7 @@ public class BoardManager : MonoBehaviour
         phase = TurnPhase.PlayerMove;
         SetRotationChoiceVisible(false);
         UpdateButtonStates();
+        UpdateRefocusButtonColor();
         UpdateDisplay();
         PlayTurnSFX();
     }
@@ -789,6 +831,17 @@ public class BoardManager : MonoBehaviour
             GetOptionDirection(choiceOne, faceRight, faceUp), choiceOne, billboardRotation, sceneCamera.transform);
         PlaceRotationOption(RotationOptionTwoButton, choiceCenter,
             GetOptionDirection(choiceTwo, faceRight, faceUp), choiceTwo, billboardRotation, sceneCamera.transform);
+
+        if (RotationRefocusButton != null &&
+            RotationRefocusButton.GetComponentInParent<Canvas>(true) == rotationChoiceCanvas)
+        {
+            RectTransform refocusRect = RotationRefocusButton.GetComponent<RectTransform>();
+            refocusRect.anchorMin = new Vector2(0.5f, 0.5f);
+            refocusRect.anchorMax = new Vector2(0.5f, 0.5f);
+            refocusRect.pivot = new Vector2(0.5f, 0.5f);
+            refocusRect.position = choiceCenter;
+            refocusRect.rotation = billboardRotation;
+        }
     }
 
     private void SetRotationChoiceVisible(bool visible)
@@ -800,6 +853,9 @@ public class BoardManager : MonoBehaviour
 
         if (!RotationOptionTwoButton.transform.IsChildOf(RotationChoicePanel.transform))
             RotationOptionTwoButton.gameObject.SetActive(visible);
+
+        if (RotationRefocusButton != null)
+            RotationRefocusButton.gameObject.SetActive(visible);
     }
 
     private static Vector3Int GetFaceNormal(CubeFace face)
@@ -827,7 +883,7 @@ public class BoardManager : MonoBehaviour
         }
     }
 
-    private void PlaceRotationOption(Button button, Vector3 center, Vector3 direction, RotationAction action, Quaternion billboardRotation, Transform cameraTransform)
+    private void PlaceRotationOption(UIButton button, Vector3 center, Vector3 direction, RotationAction action, Quaternion billboardRotation, Transform cameraTransform)
     {
         Vector3 projectedDirection = Vector3.ProjectOnPlane(direction, cameraTransform.forward);
 
@@ -848,16 +904,18 @@ public class BoardManager : MonoBehaviour
 
     private string GetRotationLabel(RotationAction action)
     {
+        bool invertArrows = selectedFace == CubeFace.Bottom;
+
         switch (action)
         {
             case RotationAction.RowLeft:
-                return "Rotate Right";
+                return invertArrows ? "Rotate ←" : "Rotate →";
             case RotationAction.RowRight:
-                return "Rotate Left";
+                return invertArrows ? "Rotate →" : "Rotate ←";
             case RotationAction.ColumnUp:
-                return "Rotate Up";
+                return invertArrows ? "Rotate ↓" : "Rotate ↑";
             case RotationAction.ColumnDown:
-                return "Rotate Down";
+                return invertArrows ? "Rotate ↑" : "Rotate ↓";
             default:
                 return "No Rotation";
         }
@@ -881,7 +939,39 @@ public class BoardManager : MonoBehaviour
             cell.LegacyLabel.text = value;
     }
 
-    private static void SetButtonLabel(Button button, string value)
+    private void UpdateRefocusButtonColor()
+    {
+        if (RotationRefocusButton != null)
+        {
+            Color playerColor = CurrentPlayer == 1 ? PlayerXColor : PlayerOColor;
+            SetRefocusButtonColor(RotationRefocusButton, playerColor);
+        }
+    }
+
+    private static void SetRefocusButtonColor(UIButton button, Color color)
+    {
+        Image image = button.GetComponent<Image>();
+        if (image == null)
+            image = button.GetComponentInChildren<Image>(true);
+
+        if (image != null)
+        {
+            button.targetGraphic = image;
+            image.color = Color.white;
+        }
+
+        ColorBlock colors = button.colors;
+        colors.normalColor = color;
+        colors.highlightedColor = Color.Lerp(color, Color.white, 0.2f);
+        colors.pressedColor = Color.Lerp(color, Color.black, 0.2f);
+        colors.selectedColor = colors.highlightedColor;
+        colors.disabledColor = color;
+        colors.colorMultiplier = 1f;
+        button.transition = Selectable.Transition.ColorTint;
+        button.colors = colors;
+    }
+
+    private static void SetButtonLabel(UIButton button, string value)
     {
         TMP_Text tmp = button.GetComponentInChildren<TMP_Text>(true);
 
