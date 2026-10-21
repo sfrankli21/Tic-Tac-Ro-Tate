@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9082431944928945122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI_Click
+  m_EditorClassIdentifier: 
+  Path: event:/UI_Click
+  Guid:
+    Data1: 1023053200
+    Data2: 1076415874
+    Data3: -1337855844
+    Data4: 680737735
+  Banks:
+  - {fileID: 2532375086610984863}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 300
 --- !u!114 &-8762519121660051618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +42,7 @@ MonoBehaviour:
   Path: Assets/Fmod/TicTacRoTate/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639274110305442581
+  lastModified: 639281979651104513
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -138,19 +165,23 @@ MonoBehaviour:
   - {fileID: -8762519121660051618}
   - {fileID: 2438832527460507216}
   - {fileID: -3976393923347036774}
+  - {fileID: 2532375086610984863}
   EditorEvents:
   - {fileID: -6805947549743122155}
   - {fileID: -8232380466685866881}
   - {fileID: 8633618840782832788}
   - {fileID: 4200431543963225101}
   - {fileID: -380341291539083480}
+  - {fileID: 6078372312023431633}
+  - {fileID: 4041564085194557305}
+  - {fileID: -9082431944928945122}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8762519121660051618}
   StringsBanks:
   - {fileID: 460025589826056795}
   cacheVersion: 131861
-  cacheTime: 639274110305980211
+  cacheTime: 639281982063725656
   SerializableEventsDict:
   - key: event:/GAME_Player2Turn
     index: 0
@@ -162,6 +193,12 @@ MonoBehaviour:
     index: 3
   - key: event:/GAME_Player2BoardWin
     index: 4
+  - key: event:/SFX_TimerTick
+    index: 5
+  - key: event:/UI_Hover
+    index: 6
+  - key: event:/UI_Click
+    index: 7
 --- !u!114 &460025589826056795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,10 +214,10 @@ MonoBehaviour:
   Path: Assets/Fmod/TicTacRoTate/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639274110305447654
+  lastModified: 639281979651119601
   FileSizes:
   - Name: Desktop
-    Value: 1062
+    Value: 1234
   Exists: 1
 --- !u!114 &2438832527460507216
 MonoBehaviour:
@@ -197,11 +234,58 @@ MonoBehaviour:
   Path: Assets/Fmod/TicTacRoTate/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639274102956871599
+  lastModified: 639281962695626050
   FileSizes:
   - Name: Desktop
-    Value: 8320
+    Value: 37920
   Exists: 1
+--- !u!114 &2532375086610984863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/TicTacRoTate/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 639281982063725656
+  FileSizes:
+  - Name: Desktop
+    Value: 421792
+  Exists: 1
+--- !u!114 &4041564085194557305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI_Hover
+  m_EditorClassIdentifier: 
+  Path: event:/UI_Hover
+  Guid:
+    Data1: -1920355920
+    Data2: 1083376667
+    Data3: -761103714
+    Data4: -1138474871
+  Banks:
+  - {fileID: 2532375086610984863}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48
 --- !u!114 &4200431543963225101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +313,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1541
+--- !u!114 &6078372312023431633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_TimerTick
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_TimerTick
+  Guid:
+    Data1: -1158785893
+    Data2: 1204645413
+    Data3: 994276771
+    Data4: -923104640
+  Banks:
+  - {fileID: 2438832527460507216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 118
 --- !u!114 &8633618840782832788
 MonoBehaviour:
   m_ObjectHideFlags: 0

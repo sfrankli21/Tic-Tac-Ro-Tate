@@ -637,6 +637,7 @@ MonoBehaviour:
   Banks:
   - GAME
   - SFX
+  - UI
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

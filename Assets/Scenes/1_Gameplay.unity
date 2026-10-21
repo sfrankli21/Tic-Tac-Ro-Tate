@@ -249,11 +249,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -263,16 +263,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -404,7 +404,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -437,7 +439,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -649,7 +651,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -682,7 +686,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -895,7 +899,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -928,7 +934,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1235,7 +1241,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1268,7 +1276,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1546,11 +1554,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -1560,16 +1568,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -1701,7 +1709,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1734,7 +1744,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1910,11 +1920,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -1924,16 +1934,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -2065,7 +2075,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2098,7 +2110,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2312,7 +2324,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2345,7 +2359,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2558,7 +2572,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2591,7 +2607,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2767,11 +2783,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -2781,16 +2797,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -2999,7 +3015,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3032,7 +3050,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3208,11 +3226,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -3222,16 +3240,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -3363,7 +3381,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3396,7 +3416,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3683,11 +3703,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -3697,16 +3717,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -4013,11 +4033,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -4027,16 +4047,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -4241,11 +4261,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -4255,16 +4275,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -4469,11 +4489,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -4483,16 +4503,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -4624,7 +4644,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4657,7 +4679,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4862,7 +4884,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4895,7 +4919,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5282,11 +5306,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -5296,16 +5320,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -5510,11 +5534,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -5524,16 +5548,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -5738,11 +5762,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -5752,16 +5776,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -5893,7 +5917,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5926,7 +5952,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6138,7 +6164,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6171,7 +6199,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6274,7 +6302,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6307,7 +6337,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6673,7 +6703,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6706,7 +6738,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6809,7 +6841,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6842,7 +6876,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -7129,11 +7163,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -7143,16 +7177,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -7357,11 +7391,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -7371,16 +7405,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -7671,7 +7705,7 @@ GameObject:
   - component: {fileID: 391221790}
   - component: {fileID: 391221789}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: RotateOptionTwoButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7716,7 +7750,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8035,11 +8071,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -8049,16 +8085,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -8522,7 +8558,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8555,7 +8593,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -8600,6 +8638,246 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460585181}
+  m_CullTransparentMesh: 1
+--- !u!1 &490822985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 490822986}
+  - component: {fileID: 490822989}
+  - component: {fileID: 490822988}
+  - component: {fileID: 490822987}
+  m_Layer: 5
+  m_Name: ReturnToMenuButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &490822986
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490822985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1592124677}
+  m_Father: {fileID: 1596428290}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 10}
+  m_SizeDelta: {x: 300, y: 150}
+  m_Pivot: {x: 1, y: 0}
+--- !u!114 &490822987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490822985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e9804f598d2c444985911a6641cf0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.78431374, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 490822988}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 644736190}
+        m_TargetAssemblyTypeName: FadeManager, Assembly-CSharp
+        m_MethodName: FadeOutTo
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  outputType: 0
+  audioBackend: 1
+  unityAudioSource: {fileID: 0}
+  clickAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
+    fmodPlayAtButtonPosition: 1
+  hoverButtonEnabled: 1
+  onHoverButtonEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverButtonExit:
+    m_PersistentCalls:
+      m_Calls: []
+  hoverEnterAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
+    fmodPlayAtButtonPosition: 1
+  hoverExitAudio:
+    playAudio: 0
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  hoverScaleEnabled: 1
+  hoverScaleTarget: {fileID: 490822986}
+  hoverTargetScale: {x: 1.1, y: 1.1, z: 1.1}
+  hoverScaleInDuration: 0.1
+  hoverScaleOutDuration: 0.1
+  useUnscaledTimeForHoverScale: 1
+  holdButtonEnabled: 0
+  holdEnterDelay: 0.5
+  holdLogicFrequency: 4
+  onHoldButtonEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoldButtonLogic:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoldButtonExit:
+    m_PersistentCalls:
+      m_Calls: []
+  holdEnterAudio:
+    playAudio: 0
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  holdLogicAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  holdExitAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  startingToggleState: 0
+  toggleStateOn:
+    m_PersistentCalls:
+      m_Calls: []
+  toggleStateOff:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &490822988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490822985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &490822989
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490822985}
   m_CullTransparentMesh: 1
 --- !u!1 &517294911
 GameObject:
@@ -9061,11 +9339,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -9075,16 +9353,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -9193,8 +9471,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -400}
-  m_SizeDelta: {x: 0, y: -1000}
+  m_AnchoredPosition: {x: 0, y: 250}
+  m_SizeDelta: {x: 0, y: -1100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550010695
 MonoBehaviour:
@@ -9216,7 +9494,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9425,11 +9705,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -9439,16 +9719,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -9653,11 +9933,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -9667,16 +9947,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -9881,11 +10161,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -9895,16 +10175,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -10036,7 +10316,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10069,7 +10351,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -10381,11 +10663,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -10395,16 +10677,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -10646,7 +10928,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10679,7 +10963,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -10855,11 +11139,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -10869,16 +11153,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -11010,7 +11294,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11043,7 +11329,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -11219,11 +11505,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -11233,16 +11519,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -11374,7 +11660,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11407,7 +11695,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -11510,7 +11798,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11543,7 +11833,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -11830,11 +12120,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -11844,16 +12134,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -11928,6 +12218,91 @@ MonoBehaviour:
   toggleStateOff:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &644736189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 644736191}
+  - component: {fileID: 644736190}
+  m_Layer: 0
+  m_Name: FadeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &644736190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644736189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb0b8bc4cbc8e349baf8b9a7c90b10c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetImage: {fileID: 2098399202}
+  FadeInDuration: 0.5
+  FadeoutDuration: 0.5
+  FadeOutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  FadeInEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2098399200}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2052791054}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  FadeInTargetAlpha: 0
+  FadeOutTargetAlpha: 255
+  FadeOnStart: 0
+  StartAlphaBeforeFade: 255
+  SetStartAlphaBeforeFade: 1
+  SceneList:
+  - 0_MainMenu
+  - 1_Gameplay
+--- !u!4 &644736191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644736189}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &649840078
 GameObject:
   m_ObjectHideFlags: 0
@@ -12265,7 +12640,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12298,7 +12675,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -12560,7 +12937,7 @@ GameObject:
   - component: {fileID: 713580196}
   - component: {fileID: 713580195}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: RotateOptionOneButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12605,7 +12982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12916,11 +13293,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -12930,16 +13307,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -13212,9 +13589,11 @@ RectTransform:
   m_Children:
   - {fileID: 1968531805}
   - {fileID: 650703659}
+  - {fileID: 1596428290}
   - {fileID: 1707085345}
   - {fileID: 1638187012}
   - {fileID: 550010694}
+  - {fileID: 2098399201}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -13721,7 +14100,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13754,7 +14135,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -13857,7 +14238,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13890,7 +14273,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -14129,7 +14512,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14162,7 +14547,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -14627,11 +15012,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -14641,16 +15026,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -15003,7 +15388,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15036,7 +15423,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -15314,11 +15701,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -15328,16 +15715,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -15469,7 +15856,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15502,7 +15891,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -15605,7 +15994,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15638,7 +16029,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -16120,11 +16511,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -16134,16 +16525,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -16348,11 +16739,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -16362,16 +16753,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -16716,7 +17107,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16749,7 +17142,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -17239,11 +17632,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -17253,16 +17646,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -17569,11 +17962,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -17583,16 +17976,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -17855,11 +18248,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -17869,16 +18262,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -18010,7 +18403,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18043,7 +18438,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -18219,11 +18614,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -18233,16 +18628,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -18660,11 +19055,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -18674,16 +19069,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -19096,7 +19491,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19129,7 +19526,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -19674,7 +20071,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19707,7 +20106,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -19810,7 +20209,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19843,7 +20244,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -20019,11 +20420,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -20033,16 +20434,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -20378,7 +20779,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -20411,7 +20814,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -20587,11 +20990,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -20601,16 +21004,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -20917,11 +21320,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -20931,16 +21334,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -21145,11 +21548,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -21159,16 +21562,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -21402,7 +21805,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21435,7 +21840,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -21611,11 +22016,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -21625,16 +22030,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -21921,6 +22326,218 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590157750}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1592124676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1592124677}
+  - component: {fileID: 1592124679}
+  - component: {fileID: 1592124678}
+  m_Layer: 5
+  m_Name: ReturnToMenuButtonText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1592124677
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592124676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 490822986}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1592124678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592124676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Back To Menu
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1592124679
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592124676}
+  m_CullTransparentMesh: 1
+--- !u!1 &1596428289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596428290}
+  - component: {fileID: 1596428292}
+  - component: {fileID: 1596428291}
+  m_Layer: 5
+  m_Name: ReturnToMenuButtonPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1596428290
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596428289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 490822986}
+  m_Father: {fileID: 745427783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -10, y: 0}
+  m_SizeDelta: {x: 300, y: 320}
+  m_Pivot: {x: 1, y: 0}
+--- !u!114 &1596428291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596428289}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1596428292
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596428289}
+  m_CullTransparentMesh: 1
 --- !u!1 &1602487194
 GameObject:
   m_ObjectHideFlags: 0
@@ -22223,7 +22840,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22256,7 +22875,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -22432,11 +23051,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -22446,16 +23065,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -22587,7 +23206,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22620,7 +23241,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -22827,9 +23448,10 @@ MonoBehaviour:
   - {fileID: 1223982489}
   CubeletSpacing: 1
   RotationDuration: 0.5
+  StartCountdownDuration: 5
   TurnDuration: 20
-  TurnDelayDuration: 1
-  BoardsToWin: 1
+  TurnDelayDuration: 2
+  BoardsToWin: 6
   PlayerXColor: {r: 0.2, g: 0.65, b: 1, a: 1}
   PlayerOColor: {r: 1, g: 0.4, b: 0.3, a: 1}
   MainCamera: {fileID: 330585545}
@@ -22844,9 +23466,52 @@ MonoBehaviour:
   CurrentPlayerText: {fileID: 790294601}
   CurrentPlayerPanel: {fileID: 1638187013}
   TimerText: {fileID: 571643509}
+  StartTimerText: {fileID: 2052791056}
   PlayerXScoreText: {fileID: 824154056}
   PlayerOScoreText: {fileID: 1331788762}
   MatchResultText: {fileID: 550010695}
+  StartGameEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 644736190}
+        m_TargetAssemblyTypeName: FadeManager, Assembly-CSharp
+        m_MethodName: FadeIn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  EndGameEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2098399200}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 644736190}
+        m_TargetAssemblyTypeName: FadeManager, Assembly-CSharp
+        m_MethodName: FadeOutTo
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   Player1Turn:
     Guid:
       Data1: -38787946
@@ -22882,6 +23547,13 @@ MonoBehaviour:
       Data3: -136254578
       Data4: -707981634
     Path: event:/GAME_Player2BoardWin
+  TimerTick:
+    Guid:
+      Data1: -1158785893
+      Data2: 1204645413
+      Data3: 994276771
+      Data4: -923104640
+    Path: event:/SFX_TimerTick
   BoardWinPrefab: {fileID: 8887794820821403957, guid: 1797284e71b744a4296a8a906e61541d, type: 3}
   BoardWinPrefabOffset: 0.05
 --- !u!4 &1637310792
@@ -23411,11 +24083,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -23425,16 +24097,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -23817,11 +24489,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -23831,16 +24503,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -23972,7 +24644,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24005,7 +24679,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -24108,7 +24782,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24141,7 +24817,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -24354,7 +25030,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24387,7 +25065,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -24490,7 +25168,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24523,7 +25203,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -24699,11 +25379,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -24713,16 +25393,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -24956,7 +25636,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24989,7 +25671,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -25092,7 +25774,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25125,7 +25809,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -25301,11 +25985,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -25315,16 +25999,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -25529,11 +26213,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -25543,16 +26227,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -25684,7 +26368,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25717,7 +26403,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -25922,7 +26608,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25955,7 +26643,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -26058,7 +26746,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26091,7 +26781,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -26194,7 +26884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26227,7 +26917,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -27031,11 +27721,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -27045,16 +27735,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -27231,6 +27921,142 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1916046786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916046787}
+  - component: {fileID: 1916046789}
+  - component: {fileID: 1916046788}
+  m_Layer: 5
+  m_Name: StartGameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1916046787
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916046786}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2060397254}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1916046788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916046786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Start Game
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 100
+  m_fontSizeBase: 100
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1916046789
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916046786}
+  m_CullTransparentMesh: 1
 --- !u!1 &1916927379
 GameObject:
   m_ObjectHideFlags: 0
@@ -27574,11 +28400,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -27588,16 +28414,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -27802,11 +28628,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -27816,16 +28642,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -28030,11 +28856,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -28044,16 +28870,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -28185,7 +29011,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28218,7 +29046,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -28613,7 +29441,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28646,7 +29476,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -28853,11 +29683,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -28867,16 +29697,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -29081,11 +29911,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -29095,16 +29925,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -29309,11 +30139,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -29323,16 +30153,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -29639,11 +30469,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -29653,16 +30483,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -29794,7 +30624,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29827,7 +30659,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -30003,11 +30835,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -30017,16 +30849,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -30226,16 +31058,16 @@ MonoBehaviour:
   audioBackend: 1
   unityAudioSource: {fileID: 0}
   clickAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -30245,16 +31077,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -30459,11 +31291,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -30473,16 +31305,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -30557,6 +31389,394 @@ MonoBehaviour:
   toggleStateOff:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &2052791054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2052791055}
+  - component: {fileID: 2052791057}
+  - component: {fileID: 2052791056}
+  m_Layer: 5
+  m_Name: StartGameTimer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2052791055
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052791054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2098399201}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2052791056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052791054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 150
+  m_fontSizeBase: 150
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2052791057
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052791054}
+  m_CullTransparentMesh: 1
+--- !u!1 &2060397253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2060397254}
+  - component: {fileID: 2060397257}
+  - component: {fileID: 2060397256}
+  - component: {fileID: 2060397255}
+  m_Layer: 5
+  m_Name: StartGameButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2060397254
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060397253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1916046787}
+  m_Father: {fileID: 2098399201}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2060397255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060397253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e9804f598d2c444985911a6641cf0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.5294118, g: 1, b: 0.5294118, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0, g: 1, b: 0, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2060397256}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1637310791}
+        m_TargetAssemblyTypeName: BoardManager, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2060397253}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  outputType: 0
+  audioBackend: 1
+  unityAudioSource: {fileID: 0}
+  clickAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
+    fmodPlayAtButtonPosition: 1
+  hoverButtonEnabled: 1
+  onHoverButtonEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverButtonExit:
+    m_PersistentCalls:
+      m_Calls: []
+  hoverEnterAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
+    fmodPlayAtButtonPosition: 1
+  hoverExitAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  hoverScaleEnabled: 1
+  hoverScaleTarget: {fileID: 2060397254}
+  hoverTargetScale: {x: 1.1, y: 1.1, z: 1.1}
+  hoverScaleInDuration: 0.1
+  hoverScaleOutDuration: 0.1
+  useUnscaledTimeForHoverScale: 1
+  holdButtonEnabled: 0
+  holdEnterDelay: 0.5
+  holdLogicFrequency: 4
+  onHoldButtonEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoldButtonLogic:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoldButtonExit:
+    m_PersistentCalls:
+      m_Calls: []
+  holdEnterAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  holdLogicAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  holdExitAudio:
+    playAudio: 1
+    unityClip: {fileID: 0}
+    unityVolume: 1
+    fmodEvent:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    fmodPlayAtButtonPosition: 1
+  startingToggleState: 0
+  toggleStateOn:
+    m_PersistentCalls:
+      m_Calls: []
+  toggleStateOff:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2060397256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060397253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2060397257
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060397253}
+  m_CullTransparentMesh: 1
 --- !u!1 &2061960448
 GameObject:
   m_ObjectHideFlags: 0
@@ -30716,7 +31936,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30749,7 +31971,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -30852,7 +32074,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30885,7 +32109,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -30930,6 +32154,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089744833}
+  m_CullTransparentMesh: 1
+--- !u!1 &2098399200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2098399201}
+  - component: {fileID: 2098399203}
+  - component: {fileID: 2098399202}
+  m_Layer: 5
+  m_Name: StartGamePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2098399201
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098399200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2052791055}
+  - {fileID: 2060397254}
+  m_Father: {fileID: 745427783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2098399202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098399200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2098399203
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098399200}
   m_CullTransparentMesh: 1
 --- !u!1 &2110820978
 GameObject:
@@ -31061,11 +32362,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -31075,16 +32376,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -31391,11 +32692,11 @@ MonoBehaviour:
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1023053200
+        Data2: 1076415874
+        Data3: -1337855844
+        Data4: 680737735
+      Path: event:/UI_Click
     fmodPlayAtButtonPosition: 1
   hoverButtonEnabled: 1
   onHoverButtonEnter:
@@ -31405,16 +32706,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverEnterAudio:
-    playAudio: 0
+    playAudio: 1
     unityClip: {fileID: 0}
     unityVolume: 1
     fmodEvent:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1920355920
+        Data2: 1083376667
+        Data3: -761103714
+        Data4: -1138474871
+      Path: event:/UI_Hover
     fmodPlayAtButtonPosition: 1
   hoverExitAudio:
     playAudio: 0
@@ -31501,3 +32802,4 @@ SceneRoots:
   - {fileID: 1637310792}
   - {fileID: 745427783}
   - {fileID: 2008212933}
+  - {fileID: 644736191}

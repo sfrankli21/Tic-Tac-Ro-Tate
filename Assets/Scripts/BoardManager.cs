@@ -4,6 +4,7 @@ using FMODUnity;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 public class BoardManager : MonoBehaviour
@@ -20,6 +21,8 @@ public class BoardManager : MonoBehaviour
 
     private enum TurnPhase
     {
+        WaitingToStart,
+        StartCountdown,
         PlayerMove,
         RotationChoice,
         Rotating,
@@ -64,6 +67,7 @@ public class BoardManager : MonoBehaviour
     public float RotationDuration = 0.5f;
 
     [Header("Match")]
+    public float StartCountdownDuration = 5f;
     public float TurnDuration = 30f;
     public float TurnDelayDuration = 3f;
     public int BoardsToWin = 3;
@@ -90,9 +94,14 @@ public class BoardManager : MonoBehaviour
     public Image CurrentPlayerPanel;
     [FormerlySerializedAs("TurnTimerText")]
     public TMP_Text TimerText;
+    public TMP_Text StartTimerText;
     public TMP_Text PlayerXScoreText;
     public TMP_Text PlayerOScoreText;
     public TMP_Text MatchResultText;
+
+    [Header("Events")]
+    public UnityEvent StartGameEvent = new UnityEvent();
+    public UnityEvent EndGameEvent = new UnityEvent();
 
     [Header("SFX")]
     public EventReference Player1Turn;
@@ -100,6 +109,7 @@ public class BoardManager : MonoBehaviour
     public EventReference Rotate;
     public EventReference Player1BoardWin;
     public EventReference Player2BoardWin;
+    public EventReference TimerTick;
 
     [Header("Board Win")]
     public GameObject BoardWinPrefab;
@@ -110,8 +120,11 @@ public class BoardManager : MonoBehaviour
     public int PlayerOScore { get; private set; }
     public float TimeRemaining { get; private set; }
     public float ChoiceTimeRemaining { get; private set; }
+    public float StartCountdownRemaining { get; private set; }
 
     private const float RotationChoiceDuration = 10f;
+    private TurnPhase lastTickPhase = TurnPhase.WaitingToStart;
+    private int lastTickSecond = -1;
 
     private readonly List<CubeletData> cubeletData = new List<CubeletData>();
     private readonly List<CellData> cells = new List<CellData>();
@@ -317,6 +330,7 @@ public class BoardManager : MonoBehaviour
             }
         }
 
+        UpdateCountdownTick();
         UpdateDisplay();
     }
 
@@ -353,7 +367,9 @@ public class BoardManager : MonoBehaviour
         selectedCubelet = null;
         ChoiceTimeRemaining = 0f;
         TimeRemaining = Mathf.Max(0.1f, TurnDuration);
-        phase = TurnPhase.PlayerMove;
+        StartCountdownRemaining = 0f;
+        StartTimerText.text = "";
+        phase = TurnPhase.WaitingToStart;
 
         SetRotationChoiceVisible(false);
         if (MatchResultText != null)
@@ -371,6 +387,48 @@ public class BoardManager : MonoBehaviour
         UpdateButtonStates();
         UpdateRefocusButtonColor();
         UpdateDisplay();
+    }
+
+    public void StartGame()
+    {
+        RestartGame();
+        if (!enabled)
+            return;
+
+        StartCountdownRemaining = Mathf.Max(0f, StartCountdownDuration);
+        phase = TurnPhase.StartCountdown;
+        UpdateButtonStates();
+        UpdateDisplay();
+        StartCoroutine(StartGameCountdown());
+    }
+
+    private IEnumerator StartGameCountdown()
+    {
+        int lastStartSecond = -1;
+
+        while (StartCountdownRemaining > 0f)
+        {
+            int second = Mathf.CeilToInt(StartCountdownRemaining);
+            StartTimerText.text = second.ToString();
+
+            if (second != lastStartSecond)
+            {
+                PlayTimerTick();
+                lastStartSecond = second;
+            }
+            yield return null;
+            StartCountdownRemaining = Mathf.Max(0f, StartCountdownRemaining - Time.deltaTime);
+        }
+
+        StartTimerText.text = "GO";
+        yield return new WaitForSeconds(1f);
+        StartTimerText.text = "";
+
+        TimeRemaining = Mathf.Max(0.1f, TurnDuration);
+        phase = TurnPhase.PlayerMove;
+        UpdateButtonStates();
+        UpdateDisplay();
+        StartGameEvent.Invoke();
         PlayTurnSFX();
     }
 
@@ -551,10 +609,17 @@ public class BoardManager : MonoBehaviour
             SetRotationChoiceVisible(false);
             UpdateButtonStates();
             UpdateDisplay();
+            StartCoroutine(EndGameDelay());
             return;
         }
 
         BeginTurnDelay();
+    }
+
+    private IEnumerator EndGameDelay()
+    {
+        yield return new WaitForSeconds(10f);
+        EndGameEvent.Invoke();
     }
 
     private void BeginTurnDelay()
@@ -585,6 +650,38 @@ public class BoardManager : MonoBehaviour
         UpdateRefocusButtonColor();
         UpdateDisplay();
         PlayTurnSFX();
+    }
+
+    private void UpdateCountdownTick()
+    {
+        if (phase != TurnPhase.PlayerMove && phase != TurnPhase.RotationChoice)
+        {
+            lastTickPhase = phase;
+            lastTickSecond = -1;
+            return;
+        }
+
+        int second = Mathf.CeilToInt(phase == TurnPhase.PlayerMove ? TimeRemaining : ChoiceTimeRemaining);
+
+        if (lastTickPhase != phase)
+        {
+            lastTickPhase = phase;
+            lastTickSecond = -1;
+        }
+
+        if (second != lastTickSecond)
+        {
+            if (second >= 1 && second < 5)
+                PlayTimerTick();
+
+            lastTickSecond = second;
+        }
+    }
+
+    private void PlayTimerTick()
+    {
+        if (!TimerTick.IsNull)
+            RuntimeManager.PlayOneShot(TimerTick);
     }
 
     private void PlayTurnSFX()
